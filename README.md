@@ -1,20 +1,17 @@
-truffle creact Adoption
+***
+`truffle creact Adoption`
 
 
-`truffle deployed`
-
-
-
-truffle create test Adoption
-truffle test
+: `truffle deployed`
 
 
 
+`truffle create test Adoption`
+`truffle test`
 
 
-
-`npm run dev`
-
+: `npm run dev`
+***
 
 
 
