@@ -78,7 +78,7 @@ App = {
         console.log(error);
 
       }
-      // App.contracts.adoption.deployed().then(function(instance){
+    
       App.contracts.adoption.deployed().then(function(instance){
         return instance.adopt.sendTransaction(petId,{from: accounts[0]})
       }).then(function(result){
